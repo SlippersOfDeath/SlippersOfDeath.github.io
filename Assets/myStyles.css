@@ -1,0 +1,93 @@
+.header1 {
+    color: darkblue !important;
+    font-weight: bold !important;;
+}
+
+.mainRow1 {
+    padding: 50px !important;
+}
+
+.mainRow2 {
+
+}
+
+.mainCol {
+    background-color: lightcyan;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.fixed-bottom {
+    background-color: gray !important;
+}
+
+.footerRow1 {
+    padding: 25px;
+    border-top: 5px solid darkblue;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.blackBold {
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+.darkBlue {
+    color: darkblue !important;
+}
+
+.blue {
+    color: blue !important;
+}
+
+.myPhoto {
+    float: left;
+    padding: 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.portfolioImages {
+    display: block;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+    }   
+
+
+.para {
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 12px;
+    line-height: 100%;
+}
+
+.form-label{
+    font-weight: bold !important;
+}
+
+.btn-primary {
+    padding: 20px !important;
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+}
+
+
+@media screen and (max-width: 429px) {
+    .para {
+        clear: both;
+    }
+}
+
+@media screen and (max max-width: 942px) {
+    .portfolioImages{
+        clear:both;
+    }
+}
